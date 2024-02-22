@@ -1,0 +1,55 @@
+.navbar-brand img
+{
+    margin-left: 40px;
+}
+.collapse
+{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.navbar-toggler
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.nav-img
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-img img
+{
+    width: 100%
+}
+.footer ul
+{
+    list-style: none;
+    color: rgb(150, 150, 26);
+}
+.footer
+{
+    border-bottom: 1px solid white;
+}
+@media screen and (max-width: 993px)
+{
+      .nav-img 
+      {
+        display: none;
+        opacity: 0;
+      }
+      .collapse
+      {
+        display: flex;
+        justify-content: center;
+      }
+}
+
